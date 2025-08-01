@@ -1,0 +1,13 @@
+body {
+    background-color: orange;
+}
+
+#pad {
+border: solid black;
+background-color: darkorange;
+}
+
+#pad-container {
+  display: flex;
+  justify-content: center;
+}
