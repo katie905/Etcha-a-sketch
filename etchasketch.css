@@ -11,3 +11,24 @@ background-color: darkorange;
   display: flex;
   justify-content: center;
 }
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: darkorange;
+  transition: background-color 0.3s ease-in-out;
+}

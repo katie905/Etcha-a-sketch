@@ -32,3 +32,21 @@ ctx.lineTo(centerX, centerY);
 ctx.stroke();
 
 });
+
+const button = document.getElementById('button');
+
+button.addEventListener('click', () => {
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+centerX = canvas.width / 2;
+centerY = canvas.height / 2;
+  
+ctx.beginPath();
+ctx.arc(centerX, centerY, 2, 0, Math.PI * 2); 
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(centerX, centerY);
+
+});
+
