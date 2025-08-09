@@ -5,6 +5,9 @@ let centerX = canvas.width / 2;
 let centerY = canvas.height / 2;
 const step = 4;
 
+const bgColorPicker = document.getElementById('bg-color');
+const lineColorPicker = document.getElementById('line-color');
+
 ctx.strokeStyle = 'black';
 ctx.fillStyle = 'black';
 ctx.lineWidth = 4;
